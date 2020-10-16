@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MegaDesk-Meim/1.0.0": {
+        "dependencies": {
+          "Carbon.Json": "2.5.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "MegaDesk-Meim.dll": {}
+        }
+      },
+      "Carbon.Json/2.5.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/Carbon.Json.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MegaDesk-Meim/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Carbon.Json/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s+21QLS/5H3ptO7LcdbKb/7UQM8JzGM469t0/eQNxay1wm2S1SqSYak5azVGbZ6fm3fq4lfVw56lpXehfz3lew==",
+      "path": "carbon.json/2.5.0",
+      "hashPath": "carbon.json.2.5.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    }
+  }
+}

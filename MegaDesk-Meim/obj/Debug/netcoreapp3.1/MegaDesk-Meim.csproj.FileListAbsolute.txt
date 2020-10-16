@@ -1,0 +1,66 @@
+C:\Users\hp\source\repos\MegaDesk-Meim\bin\Debug\netcoreapp3.1\MegaDesk-Meim.exe
+C:\Users\hp\source\repos\MegaDesk-Meim\bin\Debug\netcoreapp3.1\MegaDesk-Meim.deps.json
+C:\Users\hp\source\repos\MegaDesk-Meim\bin\Debug\netcoreapp3.1\MegaDesk-Meim.runtimeconfig.json
+C:\Users\hp\source\repos\MegaDesk-Meim\bin\Debug\netcoreapp3.1\MegaDesk-Meim.runtimeconfig.dev.json
+C:\Users\hp\source\repos\MegaDesk-Meim\bin\Debug\netcoreapp3.1\MegaDesk-Meim.dll
+C:\Users\hp\source\repos\MegaDesk-Meim\bin\Debug\netcoreapp3.1\MegaDesk-Meim.pdb
+C:\Users\hp\source\repos\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk_Meim.MainMenu.resources
+C:\Users\hp\source\repos\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.csproj.GenerateResource.cache
+C:\Users\hp\source\repos\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.AssemblyInfo.cs
+C:\Users\hp\source\repos\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.dll
+C:\Users\hp\source\repos\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.pdb
+C:\Users\hp\source\repos\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.genruntimeconfig.cache
+C:\Users\hp\source\repos\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk_Meim.Properties.Resources.resources
+C:\Users\hp\source\repos\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk_Meim.AddQuote.resources
+C:\Users\hp\source\repos\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk_Meim.SearchQuotes.resources
+C:\Users\hp\source\repos\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk_Meim.ViewAllQuotes.resources
+C:\Users\hp\source\repos\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk_Meim.DisplayQuote.resources
+C:\Users\hp\source\repos\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\bin\Debug\netcoreapp3.1\MegaDesk-Meim.exe
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\bin\Debug\netcoreapp3.1\MegaDesk-Meim.deps.json
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\bin\Debug\netcoreapp3.1\MegaDesk-Meim.runtimeconfig.json
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\bin\Debug\netcoreapp3.1\MegaDesk-Meim.runtimeconfig.dev.json
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\bin\Debug\netcoreapp3.1\MegaDesk-Meim.dll
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\bin\Debug\netcoreapp3.1\MegaDesk-Meim.pdb
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk_Meim.AddQuote.resources
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk_Meim.DisplayQuote.resources
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk_Meim.MainMenu.resources
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk_Meim.Properties.Resources.resources
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk_Meim.SearchQuotes.resources
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk_Meim.ViewAllQuotes.resources
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.csproj.GenerateResource.cache
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.AssemblyInfo.cs
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.dll
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.pdb
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.genruntimeconfig.cache
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\bin\Debug\netcoreapp3.1\MegaDesk-Meim.exe
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\bin\Debug\netcoreapp3.1\MegaDesk-Meim.deps.json
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\bin\Debug\netcoreapp3.1\MegaDesk-Meim.runtimeconfig.json
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\bin\Debug\netcoreapp3.1\MegaDesk-Meim.runtimeconfig.dev.json
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\bin\Debug\netcoreapp3.1\MegaDesk-Meim.dll
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\bin\Debug\netcoreapp3.1\MegaDesk-Meim.pdb
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.csprojAssemblyReference.cache
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk_Meim.AddQuote.resources
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk_Meim.DisplayQuote.resources
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk_Meim.MainMenu.resources
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk_Meim.Properties.Resources.resources
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk_Meim.SearchQuotes.resources
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk_Meim.ViewAllQuotes.resources
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.csproj.GenerateResource.cache
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.AssemblyInfoInputs.cache
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.AssemblyInfo.cs
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.dll
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.pdb
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.genruntimeconfig.cache
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.csproj.CopyComplete
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\BYU\CIT 365\FINAL\MegaDesk-Meim\bin\Debug\netcoreapp3.1\Carbon.Json.dll
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\bin\Debug\netcoreapp3.1\Carbon.Json.dll
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\hp\source\repos\CIT365-F2020-MeimJersen\MegaDesk-Meim\obj\Debug\netcoreapp3.1\MegaDesk-Meim.csproj.CopyComplete
