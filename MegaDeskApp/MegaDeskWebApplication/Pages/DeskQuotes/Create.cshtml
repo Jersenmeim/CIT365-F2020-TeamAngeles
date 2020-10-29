@@ -1,11 +1,6 @@
 ﻿@page
 @model MegaDeskWebApp.Pages.DeskQuotes.CreateModel
 
-
-<h2>Add New Quote</h2>
-
-<h4>Please fill in all fields</h4>
-<hr/>
 <div class="center-a">
         <form method="post">
               <div asp-validation-summary="ModelOnly"></div>
@@ -55,6 +50,10 @@
             </p>
           <br>     
             <input type="submit" value="Quote" />
+            <div>
+                <a asp-page="./Index">Back to List</a>
+            </div>
+             
           </form> 
 </div>
 

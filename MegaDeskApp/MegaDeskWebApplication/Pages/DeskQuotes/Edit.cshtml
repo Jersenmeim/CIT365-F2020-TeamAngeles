@@ -2,10 +2,6 @@
 @model MegaDeskWebApp.Pages.DeskQuotes.EditModel
 
 
-<h2>Edit</h2>
-
-<h4>DeskQuote</h4>
-<hr />
 
 <div class="center-a">
         <form method="post">
@@ -58,11 +54,13 @@
             </p>
           <br>     
             <input type="submit" value="Save" />
+            <div>
+                <a asp-page="./Index">Back to List</a>
+            </div>
           </form> 
+        
 </div>
-<div>
-    <a asp-page="./Index">Back to List</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

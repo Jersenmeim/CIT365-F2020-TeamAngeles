@@ -136,12 +136,10 @@ namespace MegaDeskWebApp.Models
             return drawerPrice;
         }
 
-        // calculate rush fee based on surface area and speed
+        // calculate rush fee based on surface area and Rush
         public int RushFee()
         {
-            //int[,] RushFees = new int[3, 3];
-            //RushFees = GetRushOrder(RUSHFEES);
-            // set size index based on surface area
+            
             int sizeIndex = 0;
             int rush = 0;
             if (SurfaceArea < BASE_SIZE)
@@ -156,7 +154,7 @@ namespace MegaDeskWebApp.Models
             {
                 sizeIndex = 2;
             }
-            // return rush fee based on sizeIndex and speed
+            // return rush fee based on sizeIndex and Rush
             if (RushDays == 3)
             {
                 rush = RUSHFEES[0, sizeIndex];
