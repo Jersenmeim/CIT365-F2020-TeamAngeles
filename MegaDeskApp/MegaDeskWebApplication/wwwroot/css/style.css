@@ -5,11 +5,32 @@
     font-family: 'Segoe UI';
 }
 
-body{
-    height:50vw;
+body, html {
+    height: 100%;
 }
 
-.center {
+.bg {
+    /*background-image: url("../Background.jpg");*/
+    /* Full height */
+   
+    /* Center and scale the image nicely */
+    height: 100vh;
+    min-height: 500px;
+    background-image: url(../Background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #1d3557;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .bg {
+        background-attachment: scroll;
+    }
+}
+
+.bg .center {
     width: 100%;
     height: 100%;
     display: -webkit-box;
@@ -23,19 +44,25 @@ body{
     align-items: center;
 }
 
-    .center ul {
+   .bg .center ul {
         margin: auto;
     }
 
-        .center ul li {
+      .bg .center ul li {
             list-style-type: none;
             text-align: center;
         }
 
-            .center ul li a {
+           .bg .center ul li a {
                 text-decoration: none;
                 color: black;
+                font-size:22px;       
             }
+
+        .bg .center ul li a:hover {
+            color:white;
+            
+        }
 
 .view {
     width: 100%;
@@ -49,9 +76,11 @@ body{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    margin:auto
 }
 
     .view .center-v {
+        width: 70%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -62,43 +91,40 @@ body{
         -webkit-box-align: baseline;
         -ms-flex-align: baseline;
         align-items: baseline;
+        margin: auto;
     }
 
-        .view .center-v a {
-            color: black;
-            text-decoration: none;
-        }
-
-        .view .center-v .search {
-            padding: 14px 0;
-        }
-
-            .view .center-v .search input, .view .center-v .search button {
-                padding: 8px;
-                margin: 0;
-            }
-
-            .view .center-v .search button {
-                border: none;
-                padding: 9px;
-                background: black;
-                color: white;
-            }
-
         .view .center-v table {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border: 1px solid #ccc;
             border-collapse: collapse;
+            margin: 0;
+            padding: 0;
+            width: 100%;
         }
 
-            .view .center-v table td, .view .center-v table th {
-                border: 1px solid #dddddd;
-                text-align: left;
-                padding: 8px;
+            .view .center-v table caption {
+                font-size: 1.5em;
+                margin: .5em 0 .75em;
             }
 
-            .view .center-v table tr:nth-child(even) {
-                background-color: #dddddd;
+            .view .center-v table tr {
+                background-color: #f8f8f8;
+                border: 1px solid #ddd;
+                padding: .35em;
             }
+
+            .view .center-v table th,
+            .view .center-v table td {
+                padding: .625em;
+                text-align: right;
+            }
+
+                .view .center-v table th th,
+                .view .center-v table td th {
+                    font-size: .85em;
+                    letter-spacing: .1em;
+                    text-transform: uppercase;
+                }
 
 .center-a {
     width: 100%;
@@ -217,4 +243,110 @@ body{
                 color: white;
                 text-decoration: none;
             }
-/*# sourceMappingURL=style.css.map */
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+    .view .center-v {
+        width: 100%;
+    }
+        table {
+        border: 0;
+    }
+
+        table caption {
+            font-size: 1.3em;
+        }
+
+        table thead {
+            border: none;
+            clip: rect(0 0 0 0);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            width: 1px;
+        }
+
+        table tr {
+            border-bottom: 3px solid #ddd;
+            display: block;
+            margin-bottom: .625em;
+        }
+
+        table td {
+            border-bottom: 1px solid #ddd;
+            display: block;
+            font-size: .8em;
+            text-align: right;
+        }
+
+            table td::before {
+                /*
+          * aria-label has no advantage, it won't be read inside a table
+          content: attr(aria-label);
+          */
+                content: attr(data-label);
+                float: left;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            table td:last-child {
+                border-bottom: 0;
+            }
+    /* Styles */
+}
+
+@media only all and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    .view .center-v {
+        width: 100%;
+    }
+    table {
+        border: 0;
+    }
+
+        table caption {
+            font-size: 1.3em;
+        }
+
+        table thead {
+            border: none;
+            clip: rect(0 0 0 0);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            width: 1px;
+        }
+
+        table tr {
+            border-bottom: 3px solid #ddd;
+            display: block;
+            margin-bottom: .625em;
+        }
+
+        table td {
+            border-bottom: 1px solid #ddd;
+            display: block;
+            font-size: .8em;
+            text-align: right;
+        }
+
+            table td::before {
+                /*
+          * aria-label has no advantage, it won't be read inside a table
+          content: attr(aria-label);
+          */
+                content: attr(data-label);
+                float: left;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            table td:last-child {
+                border-bottom: 0;
+            }
+    /* Styles */
+}
