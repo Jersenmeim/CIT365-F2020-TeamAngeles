@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MegaDesk-Meim"
+    "\\MegaDeskApp",
+    "\\MegaDeskApp\\MegaDeskWebApplication",
+    "\\MegaDeskApp\\MegaDeskWebApplication\\Models",
+    "\\MegaDeskApp\\MegaDeskWebApplication\\Pages",
+    "\\MegaDeskApp\\MegaDeskWebApplication\\Pages\\DeskQuotes"
   ],
-  "SelectedNode": "\\MegaDesk-Meim\\MegaDesk-Meim.sln",
+  "SelectedNode": "\\MegaDeskApp\\MegaDeskWebApplication\\Pages\\DeskQuotes\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
