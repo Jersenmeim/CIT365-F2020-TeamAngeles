@@ -1,0 +1,33 @@
+html {
+  font-family: 'Black Han Sans', sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+img {
+    display: block;
+}
+.table {
+    margin-bottom: 20px;
+    width: 100%; 
+  border-collapse: collapse;
+    background-color: #dfbf9f;
+    border: 2px solid #261a0d;
+    padding: 5px;
+}
+
+.home {
+    position: relative;
+}
+
+.homeButtons {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    background-color: white;
+    background-color: rgba(255,255,255,0.5);
+    margin-top: -220px;
+    padding: 30px 0;
+}

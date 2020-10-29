@@ -1,0 +1,68 @@
+﻿@page
+@model MegaDeskWebApp.Pages.DeskQuotes.CreateModel
+
+
+<h2>Add New Quote</h2>
+
+<h4>Please fill in all fields</h4>
+<hr/>
+<div class="center-a">
+        <form method="post">
+              <div asp-validation-summary="ModelOnly"></div>
+            <p>
+                <label asp-for="DeskQuote.FirstName"></label>
+                <input asp-for="DeskQuote.FirstName" required>
+            </p>
+             <p>
+                <label asp-for="DeskQuote.LastName"></label>
+                <input asp-for="DeskQuote.LastName" required>
+            </p>
+            <p>
+                <label asp-for="DeskQuote.Width"></label>
+                <input asp-for="DeskQuote.Width" min="24" max="96" required>
+            </p>
+            <p>
+                <label asp-for="DeskQuote.Depth"></label>
+                <input asp-for="DeskQuote.Depth" min="12" max="48" required>
+            </p>
+            <p>
+                <label asp-for="DeskQuote.DesktopMaterial"></label>
+                <select asp-for="DeskQuote.DesktopMaterial" required>
+                  <option value="">--Please choose an option--</option>
+                  <option value="@Model.MaterialList[0]">Pine</option>
+                  <option value="@Model.MaterialList[1]">Laminate</option>
+                  <option value="@Model.MaterialList[2]">Veneer</option>
+                  <option value="@Model.MaterialList[3]">Oak</option>
+                  <option value="@Model.MaterialList[4]">Rosewood</option>
+                </select>
+            </p>
+            <p>
+                <label asp-for="DeskQuote.NumberOfDrawers"></label>
+                <input asp-for="DeskQuote.NumberOfDrawers" min="0" max="7" required>
+            </p>
+            <p>
+                <label asp-for="DeskQuote.RushDays"></label>
+                <select asp-for="DeskQuote.RushDays">
+                    <option value="0">Normal Delivery</option>
+                    <option value="3">3 Day Delivery</option>
+                    <option value="5">5 Day Delivery</option>
+                    <option value="7">7 Day Delivery</option>
+                </select>
+            </p>
+            <p>
+                <label asp-for="DeskQuote.QuoteDate"></label>
+                <input asp-for="DeskQuote.QuoteDate" required>
+            </p>
+          <br>     
+            <input type="submit" value="Quote" />
+          </form> 
+</div>
+
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

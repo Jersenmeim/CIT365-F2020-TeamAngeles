@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2fLX3QMN556x3vGFpbTMPc6OdlJY44ReVKoIbz952Sui4GpS/ElZGY7P69/TmPqE73A7CgLBQftrLNRLejPEVQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\source\\repos\\Jersenmeim\\CIT365-F2020-TeamAngeles\\MegaDesk-Meim\\MegaDesk-Meim.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\carbon.json\\2.5.0\\carbon.json.2.5.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
