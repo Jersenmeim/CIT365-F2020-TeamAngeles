@@ -1,10 +1,6 @@
 {
   "ExpandedNodes": [
-    "\\MegaDeskApp",
-    "\\MegaDeskApp\\MegaDeskWebApplication",
-    "\\MegaDeskApp\\MegaDeskWebApplication\\Models",
-    "\\MegaDeskApp\\MegaDeskWebApplication\\Pages",
-    "\\MegaDeskApp\\MegaDeskWebApplication\\Pages\\DeskQuotes"
+    "\\MegaDeskApp"
   ],
   "PreviewInSolutionExplorer": false
 }
