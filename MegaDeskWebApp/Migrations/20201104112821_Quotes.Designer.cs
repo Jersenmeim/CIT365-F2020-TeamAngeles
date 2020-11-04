@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MegaDeskWebApp.Migrations
 {
     [DbContext(typeof(MegaDeskWebAppContext))]
-    [Migration("20201030122942_Desk")]
-    partial class Desk
+    [Migration("20201104112821_Quotes")]
+    partial class Quotes
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

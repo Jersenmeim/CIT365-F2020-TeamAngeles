@@ -24,7 +24,7 @@ body, html {
     background-color: #1d3557;
 }
 
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-width: 1366px) {
     .bg {
         background-attachment: scroll;
     }
@@ -64,6 +64,9 @@ body, html {
             
         }
 
+
+        /*View All Quotes*/
+
 .view {
     width: 100%;
     height: 100%;
@@ -76,10 +79,15 @@ body, html {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin:auto
+    background-image: url(https://images.pexels.com/photos/4238524/pexels-photo-4238524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
 }
 
     .view .center-v {
+       
         width: 70%;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -92,14 +100,23 @@ body, html {
         -ms-flex-align: baseline;
         align-items: baseline;
         margin: auto;
+
     }
 
+    .view .center-v p #a{
+        color:white;
+        font-weight:700;
+        text-decoration:none;
+    }
+
+       
         .view .center-v table {
             border: 1px solid #ccc;
             border-collapse: collapse;
             margin: 0;
             padding: 0;
             width: 100%;
+            opacity: .7;
         }
 
             .view .center-v table caption {
@@ -119,12 +136,76 @@ body, html {
                 text-align: right;
             }
 
+            .view .center-v table td:last-of-type a{
+                padding: .325em;
+                background-color:red;
+                color:white;
+                text-decoration:none;
+                font-size:16px;
+                
+            }
                 .view .center-v table th th,
                 .view .center-v table td th {
                     font-size: .85em;
                     letter-spacing: .1em;
                     text-transform: uppercase;
                 }
+
+               
+
+                    .view .center-v p:first-of-type, .view .center-v p:nth-of-type(2) {
+                        padding: 2px 0;
+                    }
+
+                .view .center-v form .form-actions {
+                     display: block;
+                     margin: 20px 0;
+                    
+                    
+                }
+
+                .view .center-v form p {
+                    margin: 10px 10px 0 0;
+                    padding:10px 0;
+                }
+
+                .view .center-v form p:first-of-type {
+                    
+                    display:flex;
+                }
+
+                    .view .center-v form p:first-of-type input {
+                        padding: 8px;
+                        display: flex;
+                        border: none;
+                    }
+
+                    .view .center-v p #a:hover {
+                        text-decoration:underline;
+                    }
+
+
+                        .view .center-v form p:first-of-type input:nth-of-type(2) {
+                            border: none;
+                            display: flex;
+                            background-color: #204c50;
+                            color: white;
+                        }
+
+
+
+                    .view .center-v form p a {
+                        padding: 10px;
+                        background-color: #975405;
+                        text-decoration: none;
+                        color: white;
+                        font-size:14px;
+                    }
+
+
+
+
+/*Add Quote, Edit Quote*/
 
 .center-a {
     width: 100%;
@@ -138,25 +219,45 @@ body, html {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://images.pexels.com/photos/158771/notebook-pen-table-blank-158771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 
     .center-a form {
         display: table;
+        transform: rotate(-20deg);
+        margin-left: -440px;
+        margin-top: -15px;
+    
     }
 
         .center-a form p {
             display: table-row;
+            color:black;
         }
 
             .center-a form p label {
                 display: table-cell;
-                padding: 30px 10px 10px 0;
+                padding: 10px 50px 10px 0;
                 font-weight: bolder;
             }
 
             .center-a form p input, .center-a form p select {
                 width: 100%;
                 padding: 5px;
+                
+            }
+
+            .center-a form .input {
+               
+                margin:10px 0;
+                background-color:black;
+                color:white;
+                padding: 7px;
+               
+              
             }
 
         .center-a form #s {
@@ -167,7 +268,7 @@ body, html {
             color: white;
             text-decoration: none;
         }
-
+        /*details*/
 .center-d {
     width: 100%;
     height: 100%;
@@ -184,6 +285,11 @@ body, html {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    background-position: center;
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+    background-image: url(https://images.pexels.com/photos/4295845/pexels-photo-4295845.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 
     .center-d dl {
@@ -192,15 +298,12 @@ body, html {
         overflow: hidden;
         padding: 0;
         margin: 0;
+        transform: rotate(-21deg);
+        margin-right: 0px;
+        margin-top: -90px;
     }
 
-        .center-d dl dt:nth-of-type(odd) {
-            color: black;
-        }
-
-        .center-d dl dt:nth-of-type(even) {
-            color: black;
-        }
+       
 
         .center-d dl dt {
             float: left;
@@ -217,13 +320,26 @@ body, html {
             /* adjust the width; make sure the total of both is 100% */
             padding: 10px;
             margin: 0;
+            text-align:right;
         }
 
     .center-d .button {
         -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
+       
         align-self: center;
-        margin: 20px;
+        transform: rotate(-21deg);
+        margin-left: 460px;
+        margin-top: -40px;
+       
+    }
+
+    .center-d form {
+        -ms-flex-item-align: center;
+      
+        align-self: center;
+        transform: rotate(-21deg);
+        margin-left: 460px;
+        margin-top: -40px;
     }
 
         .center-d .button #s {
@@ -243,14 +359,16 @@ body, html {
                 color: white;
                 text-decoration: none;
             }
-@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
 
     .view .center-v {
         width: 100%;
+        height: 100vh;
     }
-        table {
-        border: 0;
-    }
+        .view .center-v table {
+            border: 0;
+            opacity: 1;
+        }
 
         table caption {
             font-size: 1.3em;
@@ -294,17 +412,85 @@ body, html {
             table td:last-child {
                 border-bottom: 0;
             }
+
+    .view {
+       
+        background-color: black;
+       background-image:none;
+       padding:10px;
+       
+    }
+
+    .center-d {
+        background-image: none;
+        background-color: #975405;
+        color: white;
+    }
+        .center-d dl {
+            
+            font-size: 16px;
+            width: 100%;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+            transform: rotate(0);
+            margin: 0px;
+            background-image: none;
+            padding: 10px;
+        }
+        .center-d .button {
+            -ms-flex-item-align: center;
+           
+            align-self: center;
+            transform: rotate(0);
+            margin: 0;
+            color: white;
+        }
+
+        .center-d form {
+            -ms-flex-item-align: center;
+            
+            align-self: center;
+            transform: rotate(0);
+            margin: 0;
+            color: white;
+        }
+
+        .center-d dl dt {
+            
+        }
+
+    dt, dd, .button, .button a {
+        color: white;
+    }
+
+    .center-a {
+        background-image: none;
+        padding: 10px;
+        background-color: #FBAB7E;
+        background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    }
+
+        .center-a form {
+            display: table;
+            transform: rotate(0);
+            margin:0;
+        }
+
+
     /* Styles */
 }
 
-@media only all and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only all and (min-width: 768px) and (max-width: 1024px) {
 
     .view .center-v {
         width: 100%;
+        
     }
-    table {
-        border: 0;
-    }
+        .view .center-v table {
+            border: 0;
+            opacity: 1;
+        }
 
         table caption {
             font-size: 1.3em;
@@ -348,5 +534,60 @@ body, html {
             table td:last-child {
                 border-bottom: 0;
             }
+
+    .view {
+        background-color: black;
+        background-image: none;
+        padding: 10px;
+    }
     /* Styles */
+
+    .center-d {
+        background-image: none;
+        background-color: #975405;
+    }
+        .center-d dl {
+            font-size: 16px;
+            width: 100%;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+            transform: rotate(0);
+            margin: 0px;
+            padding: 10px;
+
+        }
+
+        .center-d .button {
+            -ms-flex-item-align: center;
+           
+            align-self: center;
+            transform: rotate(0);
+            margin: 0;
+        }
+        .center-d form {
+            -ms-flex-item-align: center;
+          
+            align-self: center;
+            transform: rotate(0);
+            margin: 0;
+            color: white;
+        }
+    dt,dd, .button, .button a {
+        color: white;
+    }
+
+    .center-a {
+        background-image: none;
+        padding: 10px;
+        background-color: #FBAB7E;
+        background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    }
+
+        .center-a form {
+            display: table;
+            transform: rotate(0);
+            margin: 0;
+        }
 }
+
