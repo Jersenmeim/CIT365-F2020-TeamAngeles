@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MegaDeskWebApp"
+    "\\MegaDeskWebApp",
+    "\\MegaDeskWebApp\\wwwroot",
+    "\\MegaDeskWebApp\\wwwroot\\css"
   ],
   "SelectedNode": "\\MegaDeskWebApp\\MegaDeskWebApp.sln",
   "PreviewInSolutionExplorer": false
