@@ -10,10 +10,9 @@ body, html {
 }
 
 .bg {
-    /*background-image: url("../Background.jpg");*/
-    /* Full height */
+    
    
-    /* Center and scale the image nicely */
+    /* Background for Styling in homepage */
     height: 100vh;
     min-height: 500px;
     background-image: url(../Background.jpg);
@@ -24,12 +23,17 @@ body, html {
     background-color: #1d3557;
 }
 
+
+/* Background for Styling in homepage (Resonsive*/
 @media only screen and (max-width: 1366px) {
     .bg {
         background-attachment: scroll;
     }
 }
 
+
+
+/* Styling for button in Home page*/
 .bg .center {
     width: 100%;
     height: 100%;
@@ -65,7 +69,7 @@ body, html {
         }
 
 
-        /*View All Quotes*/
+/*View All Quotes*/
 
 .view {
     width: 100%;
@@ -268,6 +272,11 @@ body, html {
             color: white;
             text-decoration: none;
         }
+
+
+
+
+
         /*details*/
 .center-d {
     width: 100%;
@@ -359,7 +368,19 @@ body, html {
                 color: white;
                 text-decoration: none;
             }
+
+
+
+
+/* Media Queries*/
+
+
+/* For mobile phone*/
+
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    /* To make the table responsive in Index.html the one with tables*/
 
     .view .center-v {
         width: 100%;
@@ -399,10 +420,7 @@ body, html {
         }
 
             table td::before {
-                /*
-          * aria-label has no advantage, it won't be read inside a table
-          content: attr(aria-label);
-          */
+        
                 content: attr(data-label);
                 float: left;
                 font-weight: bold;
@@ -420,6 +438,8 @@ body, html {
        padding:10px;
        
     }
+
+    /*(Details Styling)*/
 
     .center-d {
         background-image: none;
@@ -464,6 +484,9 @@ body, html {
         color: white;
     }
 
+
+    /*(Add,and edit Styling)*/
+
     .center-a {
         background-image: none;
         padding: 10px;
@@ -478,11 +501,14 @@ body, html {
         }
 
 
-    /* Styles */
+    /* Ipad View Styling (Media Queries */
 }
 
 @media only all and (min-width: 768px) and (max-width: 1024px) {
 
+
+
+    /*(Index Styling the one with tables)*/
     .view .center-v {
         width: 100%;
         
@@ -540,7 +566,9 @@ body, html {
         background-image: none;
         padding: 10px;
     }
-    /* Styles */
+
+
+    /*(Details Styling)*/
 
     .center-d {
         background-image: none;
@@ -576,6 +604,9 @@ body, html {
     dt,dd, .button, .button a {
         color: white;
     }
+
+
+    /*(Add and edit Styling)*/
 
     .center-a {
         background-image: none;
