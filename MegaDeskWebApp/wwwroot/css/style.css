@@ -23,16 +23,23 @@ body, html {
     background-color: #1d3557;
 }
 
+<<<<<<< HEAD
 
 /* Background for Styling in homepage (Resonsive*/
 @media only screen and (max-width: 1366px) {
+=======
+@media only screen and (max-device-width: 1366px) {
+>>>>>>> 43b9f8001ae3d8861d7b0c281ec1fbc6485a517a
     .bg {
         background-attachment: scroll;
     }
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 43b9f8001ae3d8861d7b0c281ec1fbc6485a517a
 /* Styling for button in Home page*/
 .bg .center {
     width: 100%;
@@ -68,9 +75,12 @@ body, html {
             
         }
 
+<<<<<<< HEAD
 
 /*View All Quotes*/
 
+=======
+>>>>>>> 43b9f8001ae3d8861d7b0c281ec1fbc6485a517a
 .view {
     width: 100%;
     height: 100%;
@@ -251,7 +261,6 @@ body, html {
             .center-a form p input, .center-a form p select {
                 width: 100%;
                 padding: 5px;
-                
             }
 
             .center-a form .input {
@@ -273,11 +282,14 @@ body, html {
             text-decoration: none;
         }
 
+<<<<<<< HEAD
 
 
 
 
         /*details*/
+=======
+>>>>>>> 43b9f8001ae3d8861d7b0c281ec1fbc6485a517a
 .center-d {
     width: 100%;
     height: 100%;
@@ -334,12 +346,9 @@ body, html {
 
     .center-d .button {
         -ms-flex-item-align: center;
-       
+        -ms-grid-row-align: center;
         align-self: center;
-        transform: rotate(-21deg);
-        margin-left: 460px;
-        margin-top: -40px;
-       
+        margin: 20px;
     }
 
     .center-d form {
@@ -368,6 +377,7 @@ body, html {
                 color: white;
                 text-decoration: none;
             }
+<<<<<<< HEAD
 
 
 
@@ -381,6 +391,9 @@ body, html {
 
 
     /* To make the table responsive in Index.html the one with tables*/
+=======
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+>>>>>>> 43b9f8001ae3d8861d7b0c281ec1fbc6485a517a
 
     .view .center-v {
         width: 100%;
@@ -430,6 +443,7 @@ body, html {
             table td:last-child {
                 border-bottom: 0;
             }
+<<<<<<< HEAD
 
     .view {
        
@@ -507,6 +521,12 @@ body, html {
 @media only all and (min-width: 768px) and (max-width: 1024px) {
 
 
+=======
+    /* Styles */
+}
+
+@media only all and (min-device-width: 768px) and (max-device-width: 1024px) {
+>>>>>>> 43b9f8001ae3d8861d7b0c281ec1fbc6485a517a
 
     /*(Index Styling the one with tables)*/
     .view .center-v {
@@ -560,6 +580,7 @@ body, html {
             table td:last-child {
                 border-bottom: 0;
             }
+<<<<<<< HEAD
 
     .view {
         background-color: black;
@@ -620,5 +641,7 @@ body, html {
             transform: rotate(0);
             margin: 0;
         }
+=======
+    /* Styles */
+>>>>>>> 43b9f8001ae3d8861d7b0c281ec1fbc6485a517a
 }
-
