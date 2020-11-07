@@ -23,9 +23,7 @@ body, html {
     background-color: #1d3557;
 }
 
-
-/* Background for Styling in homepage (Resonsive*/
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-device-width: 1366px) {
     .bg {
         background-attachment: scroll;
     }
@@ -67,9 +65,6 @@ body, html {
             color:white;
             
         }
-
-
-/*View All Quotes*/
 
 .view {
     width: 100%;
@@ -251,7 +246,6 @@ body, html {
             .center-a form p input, .center-a form p select {
                 width: 100%;
                 padding: 5px;
-                
             }
 
             .center-a form .input {
@@ -273,11 +267,6 @@ body, html {
             text-decoration: none;
         }
 
-
-
-
-
-        /*details*/
 .center-d {
     width: 100%;
     height: 100%;
@@ -334,12 +323,9 @@ body, html {
 
     .center-d .button {
         -ms-flex-item-align: center;
-       
+        -ms-grid-row-align: center;
         align-self: center;
-        transform: rotate(-21deg);
-        margin-left: 460px;
-        margin-top: -40px;
-       
+        margin: 20px;
     }
 
     .center-d form {
@@ -368,23 +354,7 @@ body, html {
                 color: white;
                 text-decoration: none;
             }
-<<<<<<< HEAD
-
-
-
-
-/* Media Queries*/
-
-
-/* For mobile phone*/
-
-@media only screen and (min-width: 320px) and (max-width: 767px) {
-=======
-@media only screen and (max-width: 600px) {
->>>>>>> e48b26b5ce4ce2f10f6acbc9b080b0159a361463
-
-
-    /* To make the table responsive in Index.html the one with tables*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
 
     .view .center-v {
         width: 100%;
@@ -434,82 +404,10 @@ body, html {
             table td:last-child {
                 border-bottom: 0;
             }
-
-    .view {
-       
-        background-color: black;
-       background-image:none;
-       padding:10px;
-       
-    }
-
-    /*(Details Styling)*/
-
-    .center-d {
-        background-image: none;
-        background-color: #975405;
-        color: white;
-    }
-        .center-d dl {
-            
-            font-size: 16px;
-            width: 100%;
-            overflow: hidden;
-            padding: 0;
-            margin: 0;
-            transform: rotate(0);
-            margin: 0px;
-            background-image: none;
-            padding: 10px;
-        }
-        .center-d .button {
-            -ms-flex-item-align: center;
-           
-            align-self: center;
-            transform: rotate(0);
-            margin: 0;
-            color: white;
-        }
-
-        .center-d form {
-            -ms-flex-item-align: center;
-            
-            align-self: center;
-            transform: rotate(0);
-            margin: 0;
-            color: white;
-        }
-
-        .center-d dl dt {
-            
-        }
-
-    dt, dd, .button, .button a {
-        color: white;
-    }
-
-
-    /*(Add,and edit Styling)*/
-
-    .center-a {
-        background-image: none;
-        padding: 10px;
-        background-color: lightgray;
-    }
-
-        .center-a form {
-            display: table;
-            transform: rotate(0);
-            margin:0;
-        }
-
-
-    /* Ipad View Styling (Media Queries */
+    /* Styles */
 }
 
-@media only all and (max-width: 1024px) {
-
-
+@media only all and (min-device-width: 768px) and (max-device-width: 1024px) {
 
     /*(Index Styling the one with tables)*/
     .view .center-v {
@@ -563,64 +461,5 @@ body, html {
             table td:last-child {
                 border-bottom: 0;
             }
-
-    .view {
-        background-color: black;
-        background-image: none;
-        padding: 10px;
-    }
-
-
-    /*(Details Styling)*/
-
-    .center-d {
-        background-image: none;
-        background-color: #975405;
-    }
-        .center-d dl {
-            font-size: 16px;
-            width: 100%;
-            overflow: hidden;
-            padding: 0;
-            margin: 0;
-            transform: rotate(0);
-            margin: 0px;
-            padding: 10px;
-
-        }
-
-        .center-d .button {
-            -ms-flex-item-align: center;
-           
-            align-self: center;
-            transform: rotate(0);
-            margin: 0;
-        }
-        .center-d form {
-            -ms-flex-item-align: center;
-          
-            align-self: center;
-            transform: rotate(0);
-            margin: 0;
-            color: white;
-        }
-    dt,dd, .button, .button a {
-        color: white;
-    }
-
-
-    /*(Add and edit Styling)*/
-
-    .center-a {
-        background-image: none;
-        padding: 10px;
-        background-color: lightgray;
-    }
-
-        .center-a form {
-            display: table;
-            transform: rotate(0);
-            margin: 0;
-        }
+    /* Styles */
 }
-
