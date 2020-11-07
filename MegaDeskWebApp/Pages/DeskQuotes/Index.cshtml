@@ -4,8 +4,8 @@
 
     <div class="view">
         <div class="center-v">
-            <p><a asp-page="../Index">Home</a></p>
-            <p><a asp-page="Create">Add New Quote</a></p>
+            <p><a id="a" asp-page="../Index">Home</a></p>
+            <p><a id="a" asp-page="Create">Add New Quote</a></p>
             <form asp-page="./Index" method="get">
                 <div class="form-actions">
                     <p>
@@ -14,21 +14,27 @@
                         <input type="submit" value="Search" class="button button2 btn btn-default" />
                     
                     </p>
-                    <a asp-page="./Index">Back to full list</a>
+                    <p>
+                        <a asp-page="./Index">Back to full list</a>
+                    </p>
+                    
                 </div>
             </form>
             <table>
                 <thead>
                 <tr>
-                    <th>
-                        <a asp-page="./Index" asp-route-sortOrder="@Model.NameSort"
+                    <th >
+                        <a style="color:#ad7721" asp-page="./Index" asp-route-sortOrder="@Model.NameSort"
                         asp-route-currentFilter="@Model.CurrentFilter">
+                        <i class="fa fa-sort"></i> 
                         @Html.DisplayNameFor(model => model.DeskQuote[0].CustomerName)
+
                         </a>
                     </th>
                     <th>
-                        <a asp-page="./Index" asp-route-sortOrder="@Model.DateSort"
+                        <a style="color:#ad7721" asp-page="./Index" asp-route-sortOrder="@Model.DateSort"
                         asp-route-currentFilter="@Model.CurrentFilter">
+                        <i class="fa fa-sort"></i> 
                         @Html.DisplayNameFor(model => model.DeskQuote[0].QuoteDate)
                         </a>
                     </th>
@@ -64,7 +70,7 @@
             </table>
 
             <div>
-                  @{
+                  @*{
             
                 var prevDisabled = !Model.DeskQuote.HasPreviousPage ? "disabled" : "";
                 var nextDisabled = !Model.DeskQuote.HasNextPage ? "disabled" : "";
@@ -83,6 +89,7 @@
                 Next
                 </a>
                 }
+                *@
             </div>
         </div>
     </div>

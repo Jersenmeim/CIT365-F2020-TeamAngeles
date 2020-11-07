@@ -10,7 +10,7 @@ namespace MegaDeskWebApp.Models
 {
     public class SeedData
     {
-        public static void Initialize(IServiceProvider serviceProvider)
+        public static void Initialize(IServiceProvider serviceProvider) 
         {
             using (var context = new MegaDeskWebAppContext(
                 serviceProvider.GetRequiredService<
