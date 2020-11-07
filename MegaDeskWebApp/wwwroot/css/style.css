@@ -356,7 +356,35 @@ body, html {
             text-decoration: none;
         }
 
+
+.about-privacy {
+    background-color: #5b5246;
+    color: white;
+    width: 50%;
+    padding: 2%;
+}
+
+.about-privacy div {
+   
+   
+    padding: 2% 0;
+}
+
+    .about-privacy div a{
+        color: white;
+        text-decoration:none;
+        padding: 2% 0;
+    }
+
 @media only screen and (max-width: 600px) {
+
+
+    .about-privacy {
+        background-color: #5b5246;
+        color: white;
+        width: 100%;
+        padding: 2%;
+    }
 
     .view .center-v {
         width: 100%;
@@ -481,6 +509,14 @@ body, html {
 }
 
 @media only all and (max-width: 1024px) {
+
+
+    .about-privacy {
+        background-color: #5b5246;
+        color: white;
+        width: 100%;
+        padding: 2%;
+    }
 
     .view .center-v {
         width: 100%;
