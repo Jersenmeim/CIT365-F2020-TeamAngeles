@@ -226,13 +226,13 @@ body, html {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(https://images.pexels.com/photos/158771/notebook-pen-table-blank-158771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: url(../spiral-notebook.png);
+    background-color: lightgray;
 }
 
     .center-a form {
-        display: table;
-        transform: rotate(-20deg);
-        margin-left: -440px;
+        display: table;        
+        margin-left: -540px;
         margin-top: -15px;
     
     }
@@ -368,15 +368,6 @@ body, html {
                 color: white;
                 text-decoration: none;
             }
-
-
-
-
-/* Media Queries*/
-
-
-/* For mobile phone*/
-
 @media only screen and (min-width: 320px) and (max-width: 767px) {
 
 
@@ -490,8 +481,7 @@ body, html {
     .center-a {
         background-image: none;
         padding: 10px;
-        background-color: #FBAB7E;
-        background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+        background-color: lightgray;
     }
 
         .center-a form {
@@ -504,7 +494,7 @@ body, html {
     /* Ipad View Styling (Media Queries */
 }
 
-@media only all and (min-width: 768px) and (max-width: 1024px) {
+@media only all and (max-width: 1024px) {
 
 
 
@@ -611,8 +601,7 @@ body, html {
     .center-a {
         background-image: none;
         padding: 10px;
-        background-color: #FBAB7E;
-        background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+        background-color: lightgray;
     }
 
         .center-a form {
