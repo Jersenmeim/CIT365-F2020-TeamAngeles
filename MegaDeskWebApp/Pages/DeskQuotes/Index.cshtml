@@ -69,8 +69,9 @@
                 </tbody>
             </table>
 
-            <div>
-                  @*{
+            <div class="pagination">
+                  
+             @{
             
                 var prevDisabled = !Model.DeskQuote.HasPreviousPage ? "disabled" : "";
                 var nextDisabled = !Model.DeskQuote.HasNextPage ? "disabled" : "";
@@ -78,18 +79,18 @@
                 <a asp-page="./Index" asp-route-sortOrder="@Model.CurrentSort"
                 asp-route-pageIndex="@(Model.DeskQuote.PageIndex -1)"
                 asp-route-currentFilter="@Model.CurrentFilter"
-                class="btn btn-default @prevDisabled button">
+               >
                 Previous
                 </a>
 
                 <a asp-page="./Index" asp-route-sortOrder="@Model.CurrentSort"
                 asp-route-pageIndex="@(Model.DeskQuote.PageIndex +1)"
                 asp-route-currentFilter="@Model.CurrentFilter"
-                class="btn btn-default @nextDisabled button">
+                >
                 Next
                 </a>
                 }
-                *@
+                
             </div>
         </div>
     </div>

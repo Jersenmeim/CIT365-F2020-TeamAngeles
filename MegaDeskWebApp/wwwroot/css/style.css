@@ -9,6 +9,8 @@ body, html {
     height: 100%;
 }
 
+
+
 .bg {
     /*background-image: url("../Background.jpg");*/
     /* Full height */
@@ -194,6 +196,17 @@ body, html {
             font-size: 14px;
         }
 
+        .view .center-v .pagination {
+            margin: 10px 0;
+        }
+
+        .view .center-v .pagination a{
+            
+            color:white;
+            padding: 0 10px 0px 0px;
+            text-decoration:none;
+            font-weight:bolder;
+        }
 
 
 
@@ -457,6 +470,12 @@ body, html {
             margin: 0;
         }
 
+    .view .center-v .pagination a {
+        color: black;
+        padding: 0 10px 0px 0px;
+        text-decoration: none;
+        font-weight: bolder;
+    }
 
     /* Styles */
 }
@@ -524,7 +543,7 @@ body, html {
 
     .center-d {
         background-image: none;
-        background-color: #975405;
+        background-color: #5b5246;
     }
 
         .center-d dl {
@@ -568,4 +587,11 @@ body, html {
             transform: rotate(0);
             margin: 0;
         }
+
+    .view .center-v .pagination a {
+        color: black;
+        padding: 0 10px 0px 0px;
+        text-decoration: none;
+        font-weight: bolder;
+    }
 }
