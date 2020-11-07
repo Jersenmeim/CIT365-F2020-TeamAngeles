@@ -10,9 +10,9 @@ body, html {
 }
 
 .bg {
-    
-   
-    /* Background for Styling in homepage */
+    /*background-image: url("../Background.jpg");*/
+    /* Full height */
+    /* Center and scale the image nicely */
     height: 100vh;
     min-height: 500px;
     background-image: url(../Background.jpg);
@@ -23,24 +23,12 @@ body, html {
     background-color: #1d3557;
 }
 
-<<<<<<< HEAD
-
-/* Background for Styling in homepage (Resonsive*/
 @media only screen and (max-width: 1366px) {
-=======
-@media only screen and (max-device-width: 1366px) {
->>>>>>> 43b9f8001ae3d8861d7b0c281ec1fbc6485a517a
     .bg {
         background-attachment: scroll;
     }
 }
 
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 43b9f8001ae3d8861d7b0c281ec1fbc6485a517a
-/* Styling for button in Home page*/
 .bg .center {
     width: 100%;
     height: 100%;
@@ -55,32 +43,28 @@ body, html {
     align-items: center;
 }
 
-   .bg .center ul {
+    .bg .center ul {
         margin: auto;
     }
 
-      .bg .center ul li {
+        .bg .center ul li {
             list-style-type: none;
             text-align: center;
         }
 
-           .bg .center ul li a {
+            .bg .center ul li a {
                 text-decoration: none;
                 color: black;
-                font-size:22px;       
+                font-size: 22px;
             }
 
-        .bg .center ul li a:hover {
-            color:white;
-            
-        }
+                .bg .center ul li a:hover {
+                    color: white;
+                }
 
-<<<<<<< HEAD
 
 /*View All Quotes*/
 
-=======
->>>>>>> 43b9f8001ae3d8861d7b0c281ec1fbc6485a517a
 .view {
     width: 100%;
     height: 100%;
@@ -97,11 +81,9 @@ body, html {
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-   
 }
 
     .view .center-v {
-       
         width: 70%;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -114,16 +96,15 @@ body, html {
         -ms-flex-align: baseline;
         align-items: baseline;
         margin: auto;
-
     }
 
-    .view .center-v p #a{
-        color:white;
-        font-weight:700;
-        text-decoration:none;
-    }
+        .view .center-v p #a {
+            color: white;
+            font-weight: 700;
+            text-decoration: none;
+        }
 
-       
+
         .view .center-v table {
             border: 1px solid #ccc;
             border-collapse: collapse;
@@ -150,14 +131,14 @@ body, html {
                 text-align: right;
             }
 
-            .view .center-v table td:last-of-type a{
-                padding: .325em;
-                background-color:red;
-                color:white;
-                text-decoration:none;
-                font-size:16px;
-                
-            }
+                .view .center-v table td:last-of-type a {
+                    padding: .325em;
+                    background-color: red;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 16px;
+                }
+
                 .view .center-v table th th,
                 .view .center-v table td th {
                     font-size: .85em;
@@ -165,56 +146,53 @@ body, html {
                     text-transform: uppercase;
                 }
 
-               
 
-                    .view .center-v p:first-of-type, .view .center-v p:nth-of-type(2) {
-                        padding: 2px 0;
-                    }
 
-                .view .center-v form .form-actions {
-                     display: block;
-                     margin: 20px 0;
-                    
-                    
+        .view .center-v p:first-of-type, .view .center-v p:nth-of-type(2) {
+            padding: 2px 0;
+        }
+
+        .view .center-v form .form-actions {
+            display: block;
+            margin: 20px 0;
+        }
+
+        .view .center-v form p {
+            margin: 10px 10px 0 0;
+            padding: 10px 0;
+        }
+
+            .view .center-v form p:first-of-type {
+                display: flex;
+            }
+
+                .view .center-v form p:first-of-type input {
+                    padding: 8px;
+                    display: flex;
+                    border: none;
                 }
 
-                .view .center-v form p {
-                    margin: 10px 10px 0 0;
-                    padding:10px 0;
-                }
-
-                .view .center-v form p:first-of-type {
-                    
-                    display:flex;
-                }
-
-                    .view .center-v form p:first-of-type input {
-                        padding: 8px;
-                        display: flex;
-                        border: none;
-                    }
-
-                    .view .center-v p #a:hover {
-                        text-decoration:underline;
-                    }
+        .view .center-v p #a:hover {
+            text-decoration: underline;
+        }
 
 
-                        .view .center-v form p:first-of-type input:nth-of-type(2) {
-                            border: none;
-                            display: flex;
-                            background-color: #204c50;
-                            color: white;
-                        }
+        .view .center-v form p:first-of-type input:nth-of-type(2) {
+            border: none;
+            display: flex;
+            background-color: #204c50;
+            color: white;
+        }
 
 
 
-                    .view .center-v form p a {
-                        padding: 10px;
-                        background-color: #975405;
-                        text-decoration: none;
-                        color: white;
-                        font-size:14px;
-                    }
+        .view .center-v form p a {
+            padding: 10px;
+            background-color: #975405;
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+        }
 
 
 
@@ -236,20 +214,19 @@ body, html {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(https://images.pexels.com/photos/158771/notebook-pen-table-blank-158771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: url(../spiral-notebook.png);
+    background-color: lightgray;
 }
 
     .center-a form {
         display: table;
-        transform: rotate(-20deg);
-        margin-left: -440px;
+        margin-left: -540px;
         margin-top: -15px;
-    
     }
 
         .center-a form p {
             display: table-row;
-            color:black;
+            color: black;
         }
 
             .center-a form p label {
@@ -263,15 +240,12 @@ body, html {
                 padding: 5px;
             }
 
-            .center-a form .input {
-               
-                margin:10px 0;
-                background-color:black;
-                color:white;
-                padding: 7px;
-               
-              
-            }
+        .center-a form .input {
+            margin: 10px 0;
+            background-color: black;
+            color: white;
+            padding: 7px;
+        }
 
         .center-a form #s {
             width: 70%;
@@ -281,15 +255,7 @@ body, html {
             color: white;
             text-decoration: none;
         }
-
-<<<<<<< HEAD
-
-
-
-
-        /*details*/
-=======
->>>>>>> 43b9f8001ae3d8861d7b0c281ec1fbc6485a517a
+/*details*/
 .center-d {
     width: 100%;
     height: 100%;
@@ -308,7 +274,6 @@ body, html {
     align-items: center;
     background-position: center;
     background-size: cover;
-   
     background-repeat: no-repeat;
     background-image: url(https://images.pexels.com/photos/4295845/pexels-photo-4295845.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
@@ -324,7 +289,7 @@ body, html {
         margin-top: -90px;
     }
 
-       
+
 
         .center-d dl dt {
             float: left;
@@ -341,127 +306,111 @@ body, html {
             /* adjust the width; make sure the total of both is 100% */
             padding: 10px;
             margin: 0;
-            text-align:right;
+            text-align: right;
         }
 
     .center-d .button {
         -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-        margin: 20px;
-    }
-
-    .center-d form {
-        -ms-flex-item-align: center;
-      
         align-self: center;
         transform: rotate(-21deg);
         margin-left: 460px;
         margin-top: -40px;
     }
 
-        .center-d .button #s {
+    .center-d form {
+        -ms-flex-item-align: center;
+        align-self: center;
+        transform: rotate(-21deg);
+        margin-left: 460px;
+        margin-top: -40px;
+    }
+
+    .center-d .button #s {
+        width: 70%;
+        border: none;
+        padding: 7px;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+    }
+
+        .center-d .button #s:nth-child(2) {
             width: 70%;
             border: none;
             padding: 7px;
-            background-color: black;
+            background-color: #861c1c;
             color: white;
             text-decoration: none;
         }
 
-            .center-d .button #s:nth-child(2) {
-                width: 70%;
-                border: none;
-                padding: 7px;
-                background-color: #861c1c;
-                color: white;
-                text-decoration: none;
-            }
-<<<<<<< HEAD
-
-
-
-
-/* Media Queries*/
-
-
-/* For mobile phone*/
-
-@media only screen and (min-width: 320px) and (max-width: 767px) {
-
-
-    /* To make the table responsive in Index.html the one with tables*/
-=======
-@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
->>>>>>> 43b9f8001ae3d8861d7b0c281ec1fbc6485a517a
+@media only screen and (max-width: 600px) {
 
     .view .center-v {
         width: 100%;
         height: 100vh;
     }
+
         .view .center-v table {
             border: 0;
             opacity: 1;
         }
 
-        table caption {
-            font-size: 1.3em;
-        }
-
-        table thead {
-            border: none;
-            clip: rect(0 0 0 0);
-            height: 1px;
-            margin: -1px;
-            overflow: hidden;
-            padding: 0;
-            position: absolute;
-            width: 1px;
-        }
-
-        table tr {
-            border-bottom: 3px solid #ddd;
-            display: block;
-            margin-bottom: .625em;
-        }
-
-        table td {
-            border-bottom: 1px solid #ddd;
-            display: block;
-            font-size: .8em;
-            text-align: right;
-        }
-
-            table td::before {
-        
-                content: attr(data-label);
-                float: left;
-                font-weight: bold;
-                text-transform: uppercase;
-            }
-
-            table td:last-child {
-                border-bottom: 0;
-            }
-<<<<<<< HEAD
-
-    .view {
-       
-        background-color: black;
-       background-image:none;
-       padding:10px;
-       
+    table caption {
+        font-size: 1.3em;
     }
 
-    /*(Details Styling)*/
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+
+        table td::before {
+            /*
+          * aria-label has no advantage, it won't be read inside a table
+          content: attr(aria-label);
+          */
+            content: attr(data-label);
+            float: left;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        table td:last-child {
+            border-bottom: 0;
+        }
+
+    .view {
+        background-color: black;
+        background-image: none;
+        padding: 10px;
+    }
 
     .center-d {
         background-image: none;
         background-color: #975405;
         color: white;
     }
+
         .center-d dl {
-            
             font-size: 16px;
             width: 100%;
             overflow: hidden;
@@ -472,9 +421,9 @@ body, html {
             background-image: none;
             padding: 10px;
         }
+
         .center-d .button {
             -ms-flex-item-align: center;
-           
             align-self: center;
             transform: rotate(0);
             margin: 0;
@@ -483,7 +432,6 @@ body, html {
 
         .center-d form {
             -ms-flex-item-align: center;
-            
             align-self: center;
             transform: rotate(0);
             margin: 0;
@@ -491,110 +439,94 @@ body, html {
         }
 
         .center-d dl dt {
-            
         }
 
     dt, dd, .button, .button a {
         color: white;
     }
 
-
-    /*(Add,and edit Styling)*/
-
     .center-a {
         background-image: none;
         padding: 10px;
-        background-color: #FBAB7E;
-        background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+        background-color: lightgray;
     }
 
         .center-a form {
             display: table;
             transform: rotate(0);
-            margin:0;
+            margin: 0;
         }
 
 
-    /* Ipad View Styling (Media Queries */
-}
-
-@media only all and (min-width: 768px) and (max-width: 1024px) {
-
-
-=======
     /* Styles */
 }
 
-@media only all and (min-device-width: 768px) and (max-device-width: 1024px) {
->>>>>>> 43b9f8001ae3d8861d7b0c281ec1fbc6485a517a
+@media only all and (max-width: 1024px) {
 
-    /*(Index Styling the one with tables)*/
     .view .center-v {
         width: 100%;
-        
     }
+
         .view .center-v table {
             border: 0;
             opacity: 1;
         }
 
-        table caption {
-            font-size: 1.3em;
-        }
+    table caption {
+        font-size: 1.3em;
+    }
 
-        table thead {
-            border: none;
-            clip: rect(0 0 0 0);
-            height: 1px;
-            margin: -1px;
-            overflow: hidden;
-            padding: 0;
-            position: absolute;
-            width: 1px;
-        }
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
 
-        table tr {
-            border-bottom: 3px solid #ddd;
-            display: block;
-            margin-bottom: .625em;
-        }
+    table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
 
-        table td {
-            border-bottom: 1px solid #ddd;
-            display: block;
-            font-size: .8em;
-            text-align: right;
-        }
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
 
-            table td::before {
-                /*
+        table td::before {
+            /*
           * aria-label has no advantage, it won't be read inside a table
           content: attr(aria-label);
           */
-                content: attr(data-label);
-                float: left;
-                font-weight: bold;
-                text-transform: uppercase;
-            }
+            content: attr(data-label);
+            float: left;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
 
-            table td:last-child {
-                border-bottom: 0;
-            }
-<<<<<<< HEAD
+        table td:last-child {
+            border-bottom: 0;
+        }
 
     .view {
         background-color: black;
         background-image: none;
         padding: 10px;
     }
-
-
-    /*(Details Styling)*/
+    /* Styles */
 
     .center-d {
         background-image: none;
         background-color: #975405;
     }
+
         .center-d dl {
             font-size: 16px;
             width: 100%;
@@ -604,36 +536,31 @@ body, html {
             transform: rotate(0);
             margin: 0px;
             padding: 10px;
-
         }
 
         .center-d .button {
             -ms-flex-item-align: center;
-           
             align-self: center;
             transform: rotate(0);
             margin: 0;
         }
+
         .center-d form {
             -ms-flex-item-align: center;
-          
             align-self: center;
             transform: rotate(0);
             margin: 0;
             color: white;
         }
-    dt,dd, .button, .button a {
+
+    dt, dd, .button, .button a {
         color: white;
     }
-
-
-    /*(Add and edit Styling)*/
 
     .center-a {
         background-image: none;
         padding: 10px;
-        background-color: #FBAB7E;
-        background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+        background-color: lightgray;
     }
 
         .center-a form {
@@ -641,7 +568,4 @@ body, html {
             transform: rotate(0);
             margin: 0;
         }
-=======
-    /* Styles */
->>>>>>> 43b9f8001ae3d8861d7b0c281ec1fbc6485a517a
 }
