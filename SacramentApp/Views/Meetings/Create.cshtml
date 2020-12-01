@@ -1,0 +1,67 @@
+﻿@model SacramentApp.Models.Meeting
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<h4>Create Meeting</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ConductingLeader" class="control-label"></label>
+                <input asp-for="ConductingLeader" class="form-control" />
+                <span asp-validation-for="ConductingLeader" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OpeningHymn" class="control-label"></label>
+                <input asp-for="OpeningHymn" class="form-control" />
+                <span asp-validation-for="OpeningHymn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Invocation" class="control-label"></label>
+                <input asp-for="Invocation" class="form-control" />
+                <span asp-validation-for="Invocation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SacramentHymn" class="control-label"></label>
+                <input asp-for="SacramentHymn" class="form-control" />
+                <span asp-validation-for="SacramentHymn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IntermediateHymn" class="control-label"></label>
+                <input asp-for="IntermediateHymn" class="form-control" />
+                <span asp-validation-for="IntermediateHymn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ClosingHymn" class="control-label"></label>
+                <input asp-for="ClosingHymn" class="form-control" />
+                <span asp-validation-for="ClosingHymn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Benediction" class="control-label"></label>
+                <input asp-for="Benediction" class="form-control" />
+                <span asp-validation-for="Benediction" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

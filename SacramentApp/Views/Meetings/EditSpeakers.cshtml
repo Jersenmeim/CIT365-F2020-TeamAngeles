@@ -1,0 +1,110 @@
+﻿@model SacramentApp.Models.Meeting
+
+@{
+    ViewData["Title"] = "Edit Speakers";
+}
+
+
+
+<div>
+    <h4>Manage Speakers</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ConductingLeader)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ConductingLeader)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.OpeningHymn)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.OpeningHymn)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Invocation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Invocation)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SacramentHymn)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SacramentHymn)
+        </dd>
+
+        
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Talks)
+        </dt>
+        <dd class="col-sm-10">
+
+
+            <a asp-controller="Talks" asp-action="Create" asp-route-id="@Model.Id">Create</a>
+           
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Speaker</th>
+                        <th>Topic</th>
+                    </tr>   
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Talks)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NameSpeaker)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Topic)
+                            </td>
+                            <td>
+                                <a class="btn btn-primary" asp-controller="Talks" asp-action="Edit" asp-route-id="@item.Id" title="">Edit</a>
+                                <a class="btn btn-primary" asp-controller="Talks" asp-action="Details" asp-route-id="@item.Id" title="">Details</a>
+                                <a class="btn btn-danger" asp-controller="Talks" asp-action="Delete" asp-route-id="@item.Id" title="">Delete</a>
+
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+
+
+
+        </dd>
+
+
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IntermediateHymn)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IntermediateHymn)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ClosingHymn)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ClosingHymn)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Benediction)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Benediction)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,142 @@
+﻿@model PaginatedList<SacramentApp.Models.Meeting>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<p>
+    <a class="btn btn-success" asp-action="Create">Create New</a>
+</p>
+
+
+  <div class="row">
+    <div class="col">
+        <form asp-action="Index" method="get" style="display:inline">
+ 
+        <div class="col-sm">
+       
+        </div>
+
+        <div class="form-group row">
+        <label for="example-text-input" class="col-2 col-form-label">Search</label>
+        <div class="col-10">
+        <input type="text" id="searchBox" name="SearchString" class="form-control" placeholder="Conducting Leader" 
+        value="@ViewData["currentFilter"]" />
+        </div>
+        </div>
+
+        <div class="form-group row">
+        <label for="example-date-input" class="col-2 col-form-label">Since</label>
+        <div class="col-10">
+        <input type="date" class="form-control" id="startDate" name="DateInit" value="@ViewData["dateInitFilter"]" />
+        </div>
+        </div>
+        <div class="form-group row">
+        <label for="example-date-input" class="col-2 col-form-label">To</label>
+        <div class="col-10">
+        <input type="date" class="form-control" id="endDate" name="DateEnd" value="@ViewData["dateEndFilter"]" />
+        </div>
+        </div>
+    
+       
+            <input type="submit" value="Search" class="btn btn-primary" />
+      
+     
+            <a class="btn btn-danger" style="margin: 0;" asp-action="Index">Reload</a>
+     
+        </form>
+    </div>
+    <div class="col">
+
+    </div>
+     <div class="col">
+
+    </div>
+  </div>
+  <br>
+  <br>
+
+
+<table class="table">
+    <thead>
+        <tr>
+                    <th>
+                        <a asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]" asp-route-currentFilter="@ViewData["CurrentFilter"]" asp-route-dateInitFilter="@ViewData["DateInitFilter"]" asp-route-dateEndFilter="@ViewData["DateEndFilter"]"> Date</a>
+                    </th>
+                    <th>
+                       Conducting Leader
+                    </th>
+                    <th>
+                        Opening Hymn
+                    </th>
+                   
+                    <th>
+                        Sacrament Hymn
+                    </th>
+                    <th>
+                        Intermediate Hymn
+                    </th>
+                    <th>
+                       Closing Hymn
+                    </th>
+                   
+                
+                    <th></th>
+                </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ConductingLeader)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OpeningHymn)
+            </td>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.SacramentHymn)
+            </td>
+          
+            <td>
+                @Html.DisplayFor(modelItem => item.ClosingHymn)
+            </td>
+            
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="EditSpeakers" asp-route-id="@item.Id">Speakers</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
+                <a asp-action="Print" asp-route-id="@item.Id">Print</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.PageIndex - 1)"
+       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+       asp-route-dateInitFilter="@ViewData["DateInitFilter"]"
+       asp-route-dateEndFilter="@ViewData["DateEndFilter"]"
+       class="btn btn-primary @prevDisabled">
+        Previous
+    </a>
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.PageIndex + 1)"
+       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+       asp-route-dateInitFilter="@ViewData["DateInitFilter"]"
+       asp-route-dateEndFilter="@ViewData["DateEndFilter"]"
+       class="btn btn-primary @nextDisabled">
+        Next
+    </a>
