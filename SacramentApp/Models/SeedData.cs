@@ -23,8 +23,20 @@ namespace SacramentApp.Models
 
                 var meetings = new Meeting[]
                 {
-                new Meeting{Date=DateTime.Parse("2020-07-05"), ConductingLeader="Bishop Dela Cruz", OpeningHymn="The Spirit of God", Invocation="Steven Meim", SacramentHymn="Sabbath Day", Benediction="Naomi Cruz", ClosingHymn="Press Forward Saints"},
-                new Meeting{Date=DateTime.Parse("2020-07-12"), ConductingLeader="Bishop Dela Cruz", OpeningHymn="Morning Breaks", Invocation="Megan Escandor", SacramentHymn="As Now We Take the Sacrament", Benediction="John Smith", ClosingHymn="Iron Rod"},
+                new Meeting{
+                    Date=DateTime.Parse("2020-12-05"), 
+                    ConductingLeader="Bishop Dela Cruz", 
+                    OpeningHymn="The Spirit of God", 
+                    Invocation="Steven Meim", 
+                    SacramentHymn="Sabbath Day", 
+                    Benediction="Naomi Cruz",
+                    ClosingHymn="Press Forward Saints"},
+
+                new Meeting{Date=DateTime.Parse("2020-12-12"), 
+                    ConductingLeader="Bishop Dela Cruz", 
+                    OpeningHymn="Morning Breaks", Invocation="Megan Escandor", 
+                    SacramentHymn="As Now We Take the Sacrament", 
+                    Benediction="John Smith", ClosingHymn="Iron Rod"},
                 };
                 foreach (Meeting s in meetings)
                 {

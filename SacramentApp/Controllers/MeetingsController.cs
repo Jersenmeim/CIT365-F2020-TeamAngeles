@@ -342,7 +342,7 @@ namespace SacramentApp.Models
 
 
             page.Canvas.DrawString("Opening hymn: ", fontBold, brush, pageSize.Width - x - width - 2, 170);
-            page.Canvas.DrawString(meeting.ConductingLeader, fontRegular, brush, pageSize.Width - x - width + 105, 170);
+            page.Canvas.DrawString(meeting.OpeningHymn, fontRegular, brush, pageSize.Width - x - width + 105, 170);
 
 
             page.Canvas.DrawString("Invocation: ", fontBold, brush, pageSize.Width - x - width - 2, 190);

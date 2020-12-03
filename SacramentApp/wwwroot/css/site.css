@@ -29,6 +29,10 @@ a {
 html {
   font-size: 14px;
 }
+
+body {
+    background-color: #eae9e4;
+}
 @media (min-width: 768px) {
   html {
     font-size: 16px;
