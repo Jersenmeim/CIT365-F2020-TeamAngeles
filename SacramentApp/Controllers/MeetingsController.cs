@@ -323,7 +323,7 @@ namespace SacramentApp.Models
 
             //draw line
             PdfPen pen = new PdfPen(PdfBrushes.Black, 0.3f);
-
+                                                                                        //vertical; and Horizontal
             page.Canvas.DrawString("Date: ", fontBold, brush, pageSize.Width - x - width - 2, 40);
             page.Canvas.DrawString(meeting.Date.ToShortDateString(), fontRegular, brush, pageSize.Width - x - width + 35, 40);
 
